@@ -1,3 +1,4 @@
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -7,17 +8,18 @@ import android.widget.Button;
 import com.example.danny_mac.myapplication.Leagues;
 import com.example.danny_mac.myapplication.R;
 
-public class MainProjectClass extends AppCompatActivity {
+public class MainProjectClass extends Activity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button leaguesBtn = (Button) findViewById(R.id.button1);
+        Button leaguesBtn = (Button) findViewById(R.id.LeagueButton);
         leaguesBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //Log.d(TAG, "First Button Clicked")
                 openFixturesScreen();
             }
         });
@@ -28,11 +30,8 @@ public class MainProjectClass extends AppCompatActivity {
         startActivity(intent);
     }
 
+    @Override
+    public void onClick(View v) {
 
-    /** This where all the work is going to be at Oscar if you can see this text me
-     * This should work completely
-     */
-    public static void main(String[] unused) {
-        System.out.println("okay");
     }
 }
