@@ -8,14 +8,13 @@ import com.example.danny_mac.myapplication.Leagues;
 import com.example.danny_mac.myapplication.R;
 
 public class MainProjectClass extends AppCompatActivity {
-    private Button leaguesBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        leaguesBtn = (Button) findViewById(R.id.button1);
+        Button leaguesBtn = (Button) findViewById(R.id.button1);
         leaguesBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
