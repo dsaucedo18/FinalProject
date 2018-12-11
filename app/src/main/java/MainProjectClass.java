@@ -3,7 +3,6 @@ public class MainProjectClass {
      * This should work completely
      */
     public static void main(String[] unused) {
-        System.out.println("I am going to do Math homework and then work on this. Text me if you " +
-                "get this message");
+        System.out.println("okay");
     }
 }
