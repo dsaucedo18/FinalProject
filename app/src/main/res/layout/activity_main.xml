@@ -16,8 +16,8 @@
             android:id="@+id/LeagueButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="onClick"
             android:text="Leagues"
-            android:onClick="openFixturesScreen"
             tools:text="Leagues" />
 
         <Button

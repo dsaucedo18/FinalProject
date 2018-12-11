@@ -18,11 +18,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="MainProjectClass"
-                  android:label="Main Menu">
-
-        </activity>
-
         <activity android:name=".Leagues"
                   android:label="Leagues Screen">
 
