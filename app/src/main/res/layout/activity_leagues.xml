@@ -8,14 +8,9 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="505dp"
-        android:orientation="vertical"
+        android:layout_height="match_parent"
         android:background="@drawable/background"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:orientation="vertical">
 
         <Button
             android:id="@+id/goBack"
@@ -28,21 +23,21 @@
             android:id="@+id/PremierLeague"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@PremierLeagueBtn"
+            android:text="PremierLeagueBtn"
             tools:text="Premier League" />
 
         <Button
             android:id="@+id/BundesligaButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@BundesligaBtn"
+            android:text="BundesligaBtn"
             tools:text="Bundesliga" />
 
         <Button
             android:id="@+id/SerieAButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@SerieAbtn"
+            android:text="SerieAbtn"
             tools:text="Serie A" />
 
     </LinearLayout>

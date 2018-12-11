@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Leagues extends Activity implements View.OnClickListener {
+public class Leagues extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +22,6 @@ public class Leagues extends Activity implements View.OnClickListener {
             }
         });
     }
-
     public void returnHome() {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
