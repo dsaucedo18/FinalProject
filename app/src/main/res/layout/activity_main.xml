@@ -15,21 +15,21 @@
             android:id="@+id/button1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="Leagues"
             tools:text="Leagues" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="Fixtures"
             tools:text="Fixtures" />
 
         <Button
             android:id="@+id/button5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Scores" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
