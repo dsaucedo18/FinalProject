@@ -36,7 +36,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         fixturesBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent openScreen = new Intent(MainActivity.this, )
+                //Intent openScreen = new Intent(MainActivity.this, )
             }
         });
     }
