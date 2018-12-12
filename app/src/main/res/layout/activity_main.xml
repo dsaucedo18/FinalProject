@@ -20,18 +20,6 @@
             android:text="Leagues"
             tools:text="Leagues" />
 
-        <Button
-            android:id="@+id/FixtureButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Fixtures"
-            tools:text="Fixtures" />
-
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Scores" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

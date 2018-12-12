@@ -13,31 +13,24 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/goBack"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button"
-            tools:text="GO BACK" />
-
-        <Button
             android:id="@+id/PremierLeague"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="PremierLeagueBtn"
+            android:text="PremierLeague"
             tools:text="Premier League" />
 
         <Button
             android:id="@+id/BundesligaButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="BundesligaBtn"
+            android:text="Bundesliga"
             tools:text="Bundesliga" />
 
         <Button
             android:id="@+id/SerieAButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="SerieAbtn"
+            android:text="SerieA"
             tools:text="Serie A" />
 
     </LinearLayout>
