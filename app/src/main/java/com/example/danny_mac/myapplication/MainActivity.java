@@ -30,10 +30,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
     Button fixturesBtn;
     Button scoresBtn;
 
-    public void openFixturesScreen() {
-        Intent intent = new Intent(MainActivity.this, Leagues.class);
-        startActivity(intent);
-    }
+    //public void openFixturesScreen() {
+    //    Intent intent = new Intent(MainActivity.this, Leagues.class);
+    //    startActivity(intent);
+    //}
 
     JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
             Request.Method.GET,
